@@ -1,0 +1,120 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #06beb6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    width: 70%;
+}
+
+.container .heading {
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.container .high-score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.high-score-container h1 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.high-score-container p {
+    font-size: 20px;
+}
+
+.high-score-container p .high_score {
+    font-size: 22px;
+}
+
+.container .score_container {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.score_container .question_nums, .score{
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.container .game_container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game_container .main_question {
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.game_container .answers {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+}
+
+.game_container .answers p {
+    padding: 10px;
+    background: gray;
+    color: black;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .try_again {
+    font-size: 20px;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+.try_again:hover {
+    background: beige;
+}
+
+.container .try {
+    margin: 20px auto;
+    text-align: center;
+}
+
+

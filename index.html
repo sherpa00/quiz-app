@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Quiz app</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Quiz Game</h1>
+        <div class="high-score-container">
+            <h1>High Score:</h1>
+            <p class="high_score"></p>
+        </div>
+
+        <div class="score_container">
+            <div class="question_nums">
+                <p id="question_num">0/10</p>
+            </div>
+            <div class="score">
+                <h2 id="score">score - <span class="main_score">0</span></h2>
+            </div>
+        </div>
+
+        <div class="game_container">
+            <h1 class="main_question">
+                This is a question okay?
+            </h1>
+            <div class="answers">
+                <p id="first"></p>
+                <p id="second"></p>
+                <p id="third"></p>
+                <p id="fourth"></p>
+            </div>
+        </div>
+        <div class="try">
+            <button class="try_again">Try Again</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
